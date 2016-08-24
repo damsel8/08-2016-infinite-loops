@@ -10,6 +10,27 @@ var loop = function(collection, callback){
 
 // 1. countVowels
 
+
+
+var countVowels = function (word){
+	var numberOfVowels = 0;	
+	var vowels = ['a', 'e', 'i', 'o', 'u'];
+	var letter = word.split;
+    
+	loop(word, function(element){
+
+		if (letter === vowels ){
+			numberOfVowels++;
+		
+
+	  return numberOfVowels;}
+	  	
+	}) 
+
+}
+
+console.log(letter);
+
 // 2. stringReversal
 
 // 3. isPalindrome
